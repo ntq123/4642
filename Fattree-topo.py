@@ -2,7 +2,7 @@
                                                                                              
 from mininet.topo import Topo
 class MyTopo(Topo):
-    def __init__(self):
+	def __init__(self):
 		Topo.__init__( self )
 		print('ELEC4642,LAB2')
 		k=input('please input the parameter k:')
