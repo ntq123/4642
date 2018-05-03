@@ -7,7 +7,7 @@ from mininet.node import RemoteController, OVSSwitch
 from functools import partial
 
 k=int(input('Enter value of k '))
-protocol = 'OpenFlow13'
+protocol = 'OpenFlow10'
 
 #sudo mn -c
 #sudo mn --custom Question1b.py --topo mytopo --switch ovsbr,stp=1
